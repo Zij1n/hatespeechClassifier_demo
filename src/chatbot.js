@@ -9,7 +9,7 @@ function Chatbot() {
   };
 
   const handleSendMessage = () => {
-    const url = `http://1c3a-35-227-10-137.ngrok.io/api/chatbot?message=${message}`;
+    const url = `https://1c3a-35-227-10-137.ngrok.io/api/chatbot?message=${message}`;
 
     fetch(url)
       .then((response) => {
